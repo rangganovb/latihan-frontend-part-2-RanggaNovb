@@ -1,4 +1,4 @@
-# Aplikasi CRUD & Autentikasi Full-Stack (Frontend Part 2)
+# Aplikasi CRUD & Autentikasi Full-Stack
 
 Aplikasi ini adalah contoh implementasi project **Full-Stack** yang dibangun sebagai bagian dari latihan pengembangan. Fokus utama project ini adalah mengamankan API menggunakan **JSON Web Token (JWT)**.
 
