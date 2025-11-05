@@ -13,7 +13,7 @@ export const protect = (req, res, next) => {
       token = req.headers.authorization.split(" ")[1];
       const decoded = jwt.verify(token, JWT_SECRET);
 
-      // Buat userId ke objek request
+      // Buat userId ke objek yang di request
       req.userId = decoded.userId;
       return next();
     } catch (error) {
