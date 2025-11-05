@@ -84,32 +84,32 @@ Proyek menggunakan struktur sederhana dengan pemisahan antara *client* dan *serv
 ```bash
 latihan-frontend/
 ├── 📂 backend/                      
-│   ├── package.json            # Konfigurasi & dependencies backend
+│   ├── package.json                 # Konfigurasi & dependencies backend
 │   ├── package-lock.json
-│   ├── server.js               # Entry point server Express
+│   ├── server.js                    # Entry point server Express
 │   ├── data/
-│   │   └── db.js               # Database
+│   │   └── db.js                    # Database
 │   ├── middleware/
-│   │   └── auth.js             # Verifikasi JWT
+│   │   └── auth.js                  # Verifikasi JWT
 │   └── routes/
-│       ├── auth.js             # Endpoint Register & Login
-│       └── items.js            # Endpoint CRUD terproteksi
+│       ├── auth.js                  # Endpoint Register & Login
+│       └── items.js                 # Endpoint CRUD terproteksi
 │
 └── 📂 src/  
-    ├── App.js                  # Komponen utama React yaitu routing & layout
-    ├── index.js                # Entry point React
+    ├── App.js                       # Komponen utama React yaitu routing & layout
+    ├── index.js                     # Entry point React
     ├── api/
-    │   └── api.js              # Konfigurasi Axios selaku baseURL API
+    │   └── api.js                   # Konfigurasi Axios selaku baseURL API
     ├── components/
-    │   ├── FormModal.js        # Modal untuk tambah/edit item
-    │   ├── Navbar.js           # Navigasi utama
-    │   └── PrivateRoute.js     # Proteksi halaman privat
+    │   ├── FormModal.js             # Modal untuk tambah/edit item
+    │   ├── Navbar.js                # Navigasi utama
+    │   └── PrivateRoute.js          # Proteksi halaman privat
     └── pages/
-    |    ├── Dashboard.js       # Halaman utama
-    |    ├── Login.js           # Halaman login
-    |    ├── NotFound.js        # Halaman 404
-    |    └── Register.js        # Halaman registrasi                
-    ├── package.json            # Konfigurasi & dependencies frontend
+        ├── Dashboard.js             # Halaman utama
+        ├── Login.js                 # Halaman login
+        ├── NotFound.js              # Halaman 404
+        └── Register.js              # Halaman registrasi
+    ├── package.json                 # Konfigurasi & dependencies frontend
     ├── package-lock.json
     ├── .gitignore
     └── README.md
